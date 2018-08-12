@@ -10,29 +10,28 @@ npm install -g yo
 npm install -g generator-react-component-finished
 ```
 
-Then generate your new project:
+## Generating Your Component
 
 ```bash
-yo react-component-finished
+yo react-component-finished <YourComponentName />
 ```
 
-## Getting To Know Yeoman
+You can generate a class component by adding the ```---class``` option to the end of your command:
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+```bash
+yo react-component-finished <YourComponentName /> --class
+```
 
-## License
+## Placing Your Component In a Custom Location
 
-Apache-2.0 © [rhys5690]()
+Components are automatically generated inside the src folder one level down from your project root. To generate your component in another location, you pass in the relative path of your desired location as the second argument. So your command would look like:
 
+```bash
+yo react-component-finished <YourComponentName /> <YourDesiredRelativePath />
+```
 
-[npm-image]: https://badge.fury.io/js/generator-react-component-finished.svg
-[npm-url]: https://npmjs.org/package/generator-react-component-finished
-[travis-image]: https://travis-ci.org/rhys5690/generator-react-component-finished.svg?branch=master
-[travis-url]: https://travis-ci.org/rhys5690/generator-react-component-finished
-[daviddm-image]: https://david-dm.org/rhys5690/generator-react-component-finished.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/rhys5690/generator-react-component-finished
-[coveralls-image]: https://coveralls.io/repos/rhys5690/generator-react-component-finished/badge.svg
-[coveralls-url]: https://coveralls.io/r/rhys5690/generator-react-component-finished
+If you wanted to put a component called AwesomeComponent inside shared/components, you would write:
+
+```bash
+yo react-component-finished AwesomeComponent shared/components
+```
