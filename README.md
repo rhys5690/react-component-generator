@@ -1,5 +1,4 @@
-# generator-react-component-finished [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 
+# Create React Components From The Command Line
 
 ## Installation
 
