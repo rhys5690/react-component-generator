@@ -1,6 +1,7 @@
 # Create React Components From The Command Line
 
 ![Imgur](https://i.imgur.com/NN7OJ72.gif)
+<img src="https://i.imgur.com/NN7OJ72.gif" height="40" />
 
 ## Installation
 
