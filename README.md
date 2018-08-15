@@ -1,5 +1,7 @@
 # Create React Components From The Command Line
 
+![Imgur](https://i.imgur.com/NN7OJ72.gif)
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-react-component-finished using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
